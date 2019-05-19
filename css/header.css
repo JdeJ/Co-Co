@@ -1,0 +1,24 @@
+.main-container {
+  background-color: rgb(190, 255, 222);
+}
+
+.header-title {
+  text-align: center;
+}
+
+.slogan {
+  text-align: center;
+  font-style: italic;
+}
+
+.brand-container {
+  text-align: center;
+  padding-left: 26px;
+  padding-right: 26px;
+  height: 339px;
+}
+
+.brand-container > img {
+  width: 100%;
+  margin: 0 auto;
+}
