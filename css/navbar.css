@@ -1,0 +1,36 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flex-center {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display:flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center
+}
+
+nav .menu {
+  max-width: 30vw;
+}
+
+.logo-container {
+  flex-grow: 1;
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.logo > img {
+  max-width: 100%;
+}
